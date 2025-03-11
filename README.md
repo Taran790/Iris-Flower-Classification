@@ -1,3 +1,30 @@
+Problem Statement: Iris Flower Classification
+
+The Iris Flower Classification problem is a supervised machine learning task where the objective is to classify iris flowers into one of three species:
+1.Setosa
+2.Versicolor
+3.Virginica
+
+Each flower is described using four numerical features:
+1.Sepal Length (cm)
+2.Sepal Width (cm)
+3.Petal Length (cm)
+4.Petal Width (cm)
+
+Goal:
+The goal is to develop a machine learning model that can accurately predict the species of an iris flower based on these four features. This is a classification problem, meaning the output will be one of the three predefined categories (species).
+
+Why is this important?
+The Iris dataset is widely used in machine learning for learning and benchmarking classification models.
+It serves as an excellent beginner-friendly problem to understand data preprocessing, visualization, model training, and evaluation.
+The problem is simple yet effective in demonstrating the power of supervised learning algorithms like Decision Trees, Random Forests, and Support Vector Machines.
+
+Challenges in the Problem
+Some features may have overlapping values between different species, making classification slightly challenging.
+Choosing the right classification algorithm can impact model accuracy.
+
+Code:
+
 # Import necessary libraries
 import numpy as np
 import pandas as pd
